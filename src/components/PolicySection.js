@@ -10,7 +10,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 const PolicySection = ({ section, policies, onPolicySelect }) => {
   const handleCheckboxChange = (policyId) => {
-    onPolicySelect(section, policyId);
+    onPolicySelect(policyId);
   };
 
   return (

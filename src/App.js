@@ -1,12 +1,23 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import PolicySection from "./components/PolicySection";
 import Results from "./components/Results";
 import { Button } from "@mui/material";
-import sections from "./policies.json";
+import { shuffleArray } from "./utils/shuffle";
+import policiesData from "./policies.json";
 
 const App = () => {
   const [selectedPolicies, setSelectedPolicies] = useState([]);
   const [showResults, setShowResults] = useState(false);
+  const [sections, setSections] = useState({});
+
+  useEffect(() => {
+    // Shuffle policies within each section
+    const shuffledSections = {};
+    for (const [section, policies] of Object.entries(policiesData)) {
+      shuffledSections[section] = shuffleArray([...policies]);
+    }
+    setSections(shuffledSections);
+  }, []);
 
   const handlePolicySelect = (policyId) => {
     setSelectedPolicies((prevState) => {
@@ -18,7 +29,7 @@ const App = () => {
     });
   };
 
-  const policies = Object.values(sections).flat();
+  const allPolicies = Object.values(sections).flat();
 
   return (
     <div>
@@ -42,7 +53,7 @@ const App = () => {
           </Button>
         </div>
       ) : (
-        <Results selectedPolicies={selectedPolicies} policies={policies} />
+        <Results selectedPolicies={selectedPolicies} policies={allPolicies} />
       )}
     </div>
   );
