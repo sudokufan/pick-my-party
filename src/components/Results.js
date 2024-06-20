@@ -1,4 +1,5 @@
 import React from "react";
+import "./results.css";
 
 const Results = ({ selectedPolicies, policies }) => {
   const partyCount = {};
@@ -18,12 +19,18 @@ const Results = ({ selectedPolicies, policies }) => {
 
   const sortedParties = Object.entries(partyCount).sort((a, b) => b[1] - a[1]);
 
+  const mostAlignedParty = sortedParties.length ? sortedParties[0][0] : null;
+
+  const standardizedClassName = mostAlignedParty
+    ? mostAlignedParty.toLowerCase().replace(/\s+/g, "")
+    : "default";
+
   return (
-    <div>
+    <div className={`results-container ${standardizedClassName}`}>
       <h2>Your Results</h2>
       {sortedParties.length ? (
         <div>
-          <h3>Most Aligned Party: {sortedParties[0][0]}</h3>
+          <h3>Most Aligned Party: {mostAlignedParty}</h3>
           <p>Selected Policies:</p>
           <ul>
             {selectedPolicies.map((policyId) => {

@@ -1,0 +1,30 @@
+.results-container {
+  padding: 20px;
+  border-radius: 10px;
+  color: black;
+}
+
+.labour {
+  background-color: #ffcccb;
+  color: #8b0000;
+}
+
+.conservative {
+  background-color: #add8e6;
+  color: #00008b;
+}
+
+.liberaldemocrats {
+  background-color: #ffffe0;
+  color: #645c00;
+}
+
+.greenparty {
+  background-color: #98fb98;
+  color: #006400;
+}
+
+.default {
+  background-color: white;
+  color: black;
+}

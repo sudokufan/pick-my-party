@@ -1,11 +1,291 @@
 {
-  "Environment": [
-    { "id": 1, "name": "Increase renewable energy", "party": "Green Party" },
-    { "id": 2, "name": "Reduce carbon emissions", "party": "Labour" }
+  "Business": [
+    {
+      "id": 14,
+      "name": "Cap corporation tax at the current level of 25% for the next parliament",
+      "party": "Liberal Democrats"
+    },
+    {
+      "id": 14,
+      "name": "Create the Regulatory Innovation Office to update regulation and speed up approval timelines",
+      "party": "Labour"
+    },
+    {
+      "id": 14,
+      "name": "Regulate AI tech companies to ensure safe development and use of AI models",
+      "party": "Labour"
+    },
+    {
+      "id": 14,
+      "name": "Ban the creation of sexually explicit deepfakes",
+      "party": "Labour"
+    }
+  ],
+  "Crime": [
+    {
+      "id": 14,
+      "name": "Ensure swift compensation for sub-postmasters affected by the Horizon IT scandal",
+      "party": "Labour"
+    },
+    {
+      "id": 14,
+      "name": "Halve violent crime",
+      "party": "Labour"
+    }
+  ],
+  "Economy": [
+    {
+      "id": 14,
+      "name": "Every fiscal event making significant changes to taxation or spending will be subject to an independent OBR forecast",
+      "party": "Labour"
+    },
+    {
+      "id": 15,
+      "name": "Move the budget into balance, so that day-to-day costs are met by revenues",
+      "party": "Labour"
+    },
+    {
+      "id": 16,
+      "name": "Debt must be falling as a share of the economy by the fifth year of the forecast",
+      "party": "Labour"
+    },
+    {
+      "id": 16,
+      "name": "Target 2% inflation",
+      "party": "Labour"
+    },
+    {
+      "id": 16,
+      "name": "Increase tax registration and reporting requirements to tackle tax avoidance",
+      "party": "Labour"
+    },
+    {
+      "id": 16,
+      "name": "Abolish 'non-dom' status",
+      "party": "Labour"
+    },
+    {
+      "id": 16,
+      "name": "End the use of offshore trusts to avoid inheritance tax",
+      "party": "Labour"
+    },
+    {
+      "id": 16,
+      "name": "Increase the rate of stamp duty paid by non-UK residents",
+      "party": "Labour"
+    },
+    {
+      "id": 16,
+      "name": "Give councils multi-year funding settlements",
+      "party": "Labour"
+    }
   ],
   "Education": [
-    { "id": 3, "name": "Increase school funding", "party": "Labour" },
-    { "id": 4, "name": "Free university tuition", "party": "Liberal Democrats" }
+    {
+      "id": 3,
+      "name": "Free breakfast clubs in every primary school",
+      "party": "Labour"
+    },
+    {
+      "id": 4,
+      "name": "Access to training, an apprenticeship, or support to find work for all 18-to-21-year-olds",
+      "party": "Labour"
+    },
+    {
+      "id": 4,
+      "name": "Two weeks' worth of work experience for every young person",
+      "party": "Labour"
+    }
+  ],
+  "Employment": [
+    {
+      "id": 3,
+      "name": "Reform or replace Work Capability Assessment",
+      "party": "Labour"
+    },
+    {
+      "id": 3,
+      "name": "Ban zero-hour contracts",
+      "party": "Labour"
+    },
+    {
+      "id": 3,
+      "name": "End fire-and-rehire",
+      "party": "Labour"
+    },
+    {
+      "id": 3,
+      "name": "Worker protections for unfair dismissal, parental leave and sick pay from day one of employment",
+      "party": "Labour"
+    },
+    {
+      "id": 3,
+      "name": "Remove minimum wage age bands, putting everyone on the highest minimum wage",
+      "party": "Labour"
+    }
+  ],
+  "Environment": [
+    {
+      "id": 1,
+      "name": "Invest £1 billion to accelerate the deployment of carbon capture",
+      "party": "Labour"
+    },
+    {
+      "id": 2,
+      "name": "Invest £500 million to support the manufacturing of green hydrogen",
+      "party": "Labour"
+    },
+    {
+      "id": 2,
+      "name": "Accelerate the rollout of electric vehicle charge points",
+      "party": "Labour"
+    },
+    {
+      "id": 2,
+      "name": "Restore the phase-out date of 2030 for new cars with internal combustion engines",
+      "party": "Labour"
+    },
+    {
+      "id": 2,
+      "name": "Standardise the information supplied on the condition of batteries to support buyers of second-hand electric cars",
+      "party": "Labour"
+    },
+    {
+      "id": 2,
+      "name": "Zero-carbon electricity by 2030",
+      "party": "Labour"
+    },
+    {
+      "id": 2,
+      "name": "Double onshore wind, triple solar power, and quadruple offshore wind by 2030",
+      "party": "Labour"
+    },
+    {
+      "id": 2,
+      "name": "Extend the lifetime of existing nuclear power plants and build new ones",
+      "party": "Labour"
+    },
+    {
+      "id": 2,
+      "name": "Maintain a strategic reserve of gas power stations to guarantee security of supply",
+      "party": "Labour"
+    },
+    {
+      "id": 2,
+      "name": "Maintain oil and gas production in the North Sea, neither issuing new licenses or revoking existing ones",
+      "party": "Labour"
+    },
+    {
+      "id": 2,
+      "name": "Ban fracking",
+      "party": "Labour"
+    },
+    {
+      "id": 2,
+      "name": "Stop issuing coal licenses",
+      "party": "Labour"
+    }
+  ],
+  "Housing": [
+    {
+      "id": 24,
+      "name": "Create 1.5 million new homes over the next parliament",
+      "party": "Labour"
+    },
+    {
+      "id": 24,
+      "name": "Introduce a permanent, comprehensive mortgage guarantee scheme for first-time buyers",
+      "party": "Labour"
+    },
+    {
+      "id": 24,
+      "name": "Give first-time buyers the first chance to buy homes",
+      "party": "Labour"
+    },
+    {
+      "id": 24,
+      "name": "Ban housing developments being pre-sold to international investors",
+      "party": "Labour"
+    }
+  ],
+  "Immigration": [
+    {
+      "id": 9,
+      "name": "Create a new Border Security Command with hundreds of officers",
+      "party": "Labour"
+    },
+    {
+      "id": 10,
+      "name": "End the Rwanda scheme",
+      "party": "Labour"
+    },
+    {
+      "id": 11,
+      "name": "Hire additional caseworkers to clear the backlog of asylum seekers",
+      "party": "Labour"
+    },
+    {
+      "id": 12,
+      "name": "Set up a new 1000-person Returns and Enforcement unit to fast-track removals to safe countries for illegal immigrants",
+      "party": "Labour"
+    },
+    {
+      "id": 13,
+      "name": "Increase the number of safe countries that failed asylum seekers can swiftly be sent back to",
+      "party": "Labour"
+    },
+    {
+      "id": 16,
+      "name": "Reduce net migration",
+      "party": "Labour"
+    }
+  ],
+  "Infrastructure": [
+    {
+      "id": 17,
+      "name": "Invest £1.8 billion to upgrade ports and build supply chains across the UK",
+      "party": "Labour"
+    },
+    {
+      "id": 17,
+      "name": "Invest £1.5 billion to new gigafactories for the automative industry",
+      "party": "Labour"
+    },
+    {
+      "id": 17,
+      "name": "Invest £2.5 billion to rebuild our steel industry",
+      "party": "Labour"
+    },
+    {
+      "id": 17,
+      "name": "Invest £1.5 billion to new gigafactories for the automative industry",
+      "party": "Labour"
+    },
+    {
+      "id": 17,
+      "name": "Improve rail connectivity across the north of England",
+      "party": "Labour"
+    },
+    {
+      "id": 17,
+      "name": "Full gigabit and national 5G coverage by 2030",
+      "party": "Labour"
+    },
+    {
+      "id": 18,
+      "name": "Fix one million potholes across England in each year of the next parliament",
+      "party": "Labour"
+    },
+    {
+      "id": 18,
+      "name": "Bring railways into public ownership",
+      "party": "Labour"
+    },
+    {
+      "id": 18,
+      "name": "Lift the ban on councils / local authorities setting up their own bus companies",
+      "party": "Labour"
+    }
   ],
   "National Security": [
     {
@@ -15,12 +295,24 @@
     },
     {
       "id": 6,
-      "name": "spend 2.5% of GBP on defence",
+      "name": "Spend 2.5% of GBP on defence",
       "party": "Labour"
     },
     {
-      "id": 7,
-      "name": "conduct a Strategic Defence Review",
+      "id": 8,
+      "name": "Implement Martyn's Law, requiring large venues to take additional steps to mitigate the impact of a terrorist attack",
+      "party": "Labour"
+    }
+  ],
+  "Political Reform": [
+    {
+      "id": 18,
+      "name": "Appoint a Covid Corruption Commissioner to recoup public money lost in pandemic-related fraud and from contracts which have not delivered",
+      "party": "Labour"
+    },
+    {
+      "id": 18,
+      "name": "End the link between access to ministers and an inside track for public contracts",
       "party": "Labour"
     }
   ]

@@ -1,0 +1,4 @@
+.policies {
+  display: flex;
+  flex-direction: column;
+}

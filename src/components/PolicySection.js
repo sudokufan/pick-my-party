@@ -7,6 +7,7 @@ import {
   FormControlLabel,
 } from "@mui/material";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import "./policySection.css";
 
 const PolicySection = ({ section, policies, onPolicySelect }) => {
   const handleCheckboxChange = (policyId) => {
@@ -18,7 +19,7 @@ const PolicySection = ({ section, policies, onPolicySelect }) => {
       <AccordionSummary expandIcon={<ExpandMoreIcon />}>
         {section}
       </AccordionSummary>
-      <AccordionDetails>
+      <AccordionDetails className="policies">
         {policies.map((policy) => (
           <FormControlLabel
             key={policy.id}

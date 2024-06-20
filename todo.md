@@ -1,0 +1,15 @@
+Labour:
+
+"close the loopholes in the windfall tax on oil and gas companies"
+"extend the sunset clause in the Energy Profits Levy until the end of the next parliament"
+"Increase the rate of the levy by 3%"
+"Retain the Energy Security Investment Mechanism"
+"Create a new publicly-owned energy company capitalised with £8.3 billion"
+"Replace the Mineworkers' Pension Scheme"
+"Offer grants and low interest loans to support investment in insulation and other improvements such as solar panels, batteries and low carbon heating to cut bills"
+"Create nine new National River Walks, one in each region of England, and establish three new National Forests in England"
+"Set a target for half of all food purchased across the public sector to be locally produced or certified to higher environmental standards"
+"Work with farmers and scientists on measures to eradicate Bovine TB, protecting livelihoods, so that we can end the ineffective badger cull"
+"Ban trail hunting and the import of hunting trophies"
+"We will end puppy smuggling and farming, along with the use of snare traps"
+"Partner with scientists, industry, and civil society as we work towards the phasing out of animal testing"
